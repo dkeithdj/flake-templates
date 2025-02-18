@@ -13,7 +13,7 @@
           '';
         };
         python-uv = {
-          python = ./python-uv;
+          path = ./python-uv;
           description = "Python development template using uv";
           welcomeText = ''
             # Getting started
