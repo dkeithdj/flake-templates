@@ -20,6 +20,14 @@
             - run `direnv allow`
           '';
         };
+        python-uv-simple = {
+          path = ./python-uv-simple;
+          description = "Python development template using uv simple";
+          welcomeText = ''
+            # Getting started
+            - run `direnv allow`
+          '';
+        };
       };
     };
 }
